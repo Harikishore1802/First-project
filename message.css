@@ -1,0 +1,44 @@
+.a
+{
+background:url(../pic/1.jpg);
+}
+.a h1
+{
+color:#ffbe00;
+font-family: 'Spectral SC', serif;
+}
+.a ul li
+{
+list-style:none;
+}
+.a ul li a
+{
+color:#ffbe00;
+float:left;
+padding:2em;
+}
+.a ul li a:hover
+{
+text-decoration:none;
+color:white;
+}
+.b h3
+{
+ color:blue;
+}
+.d h4
+{
+color:blue;
+}
+.e p
+{
+color:white;
+}
+.g
+{
+background:url(../pic/9.jpg)
+}
+.c
+{
+color:white;
+}

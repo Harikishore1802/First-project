@@ -1,0 +1,37 @@
+.a ul li 
+{
+  list-style:none;
+  float:left;
+  padding:2em;
+  
+}
+.a ul li a
+{
+color:#ffbe00;
+}
+.a ul li   a:hover
+{
+ text-decoration:none;
+ color:white;
+ 
+}
+.a h1
+{
+color:#ffbe00;
+font-family: 'Spectral SC', serif;
+}
+.a
+{
+ background:url(../pic/1.jpg);
+}
+.b 
+{
+  padding-top:5em;
+  padding-bottom:20em;
+ background:url(../pic/8.jpg);
+}
+.b h1
+{
+ 
+ font-family: 'Spectral SC', serif;
+}

@@ -1,0 +1,29 @@
+<html>
+<head>
+<title></title>
+</head>
+<body>
+<?php
+	session_start();
+if(isset($_SESSION['loginname']))&&(isset($_SESSION['loginpass']))
+  {
+	header("Location:home.php");
+    exit;
+  }
+  
+  
+if(($_POST["name"]==$name)&&($_POST["password"]==$password))
+{
+	$_SESSION['loginname']==$_POST['name'];
+	$_SESSION['loginpass']==$_POST['password'];
+    header("Location:home.php");
+	exit;
+}
+else
+{
+	header("Location:login.php");
+	exit;
+}
+?>
+</body>
+</html>

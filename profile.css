@@ -1,0 +1,32 @@
+.a ul li 
+{
+  list-style:none;
+  float:left;
+  padding:2em;
+}
+.a ul li a
+{
+color:#ffbe00;
+}
+.a ul li a:hover
+{
+color:white;
+}
+.a h1
+{
+color:#ffbe00;
+}
+.a
+{
+ background:url(../pic/1.jpg);
+}
+.b
+{
+background:url(../pic/6.jpg);
+padding-top:10em;
+padding-bottom:20em;
+}
+.b h1
+{
+color:#ffbe00;
+}
